@@ -1,0 +1,81 @@
+.Keyword {
+    height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    border: none;  
+}
+.type{
+    margin-top: 14px;
+}
+.inputdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 230px;
+    height: 50px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    padding-left: 5px;
+    margin: 10px;
+}
+.inputdiv:hover{
+    border: 2px solid crimson;
+}
+
+.button{
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    color: crimson;
+    border: 2px solid crimson;
+    background-color: white;
+    transition: all ease-in 0.2s;
+}
+
+.Video{
+    /* border: 1px solid rebeccapurple; */
+    width: 70%;
+    height: 100vh;
+}
+
+.input_group{
+    width: 250px;
+    height: 40px;
+    padding: 12px;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.select{
+    width: 60px;
+    height: 40px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+}
+.select2{
+    width: 200px;
+    height: 40px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+}
+
+.inputImage{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

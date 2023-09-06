@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* border: 10px solid red; */
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar>ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar{
+  background-color: lightgray;
+  width: 50%;
+  padding: 10px ;
+  margin: 0;
+}
+
+
